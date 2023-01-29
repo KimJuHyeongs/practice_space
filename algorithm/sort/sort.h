@@ -10,7 +10,6 @@ class Sort{
 
     public:
     Sort();
-    //int* get_input_array();
     void start_time();
     void end_time();
     void print_duration();
