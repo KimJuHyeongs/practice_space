@@ -20,9 +20,7 @@ int main(void)
             }
         }
         
-        tmp_val = input[i];
-        input[i] = input[min_idx];
-        input[min_idx] = tmp_val;
+        init.swap(&input[i],&input[min_idx]);
     }
     init.end_time();
 

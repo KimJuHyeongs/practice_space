@@ -24,7 +24,7 @@ void Sort::end_time(){
 }
 
 void Sort::print_duration(){
-    printf("Duration : %f s\n",this->duration);
+    printf("Duration : %f ms\n",this->duration);
 }
 
 void Sort::print_array(int *array){
@@ -32,4 +32,10 @@ void Sort::print_array(int *array){
         printf("%d ",array[i]);
     }
     printf("\n");
+}
+
+void Sort::swap(int* a, int* b){
+    int tmp = *a;
+    *a = *b;
+    *b = tmp;
 }

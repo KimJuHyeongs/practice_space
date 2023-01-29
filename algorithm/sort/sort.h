@@ -15,4 +15,5 @@ class Sort{
     void end_time();
     void print_duration();
     void print_array(int*);
+    void swap(int*, int*);
 };
