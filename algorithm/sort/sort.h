@@ -1,5 +1,6 @@
 #include<time.h>
 #define INPUT_NUM 19
+#define MERGE_NUM 16
 
 class Sort{
     private :
@@ -14,5 +15,6 @@ class Sort{
     void end_time();
     void print_duration();
     void print_array(int*);
+    void print_array_with_size(int, int*);
     void swap(int*, int*);
 };

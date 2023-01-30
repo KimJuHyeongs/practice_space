@@ -34,6 +34,13 @@ void Sort::print_array(int *array){
     printf("\n");
 }
 
+void Sort::print_array_with_size(int size, int* arr){
+    for(int i=0; i<size; i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+}
+
 void Sort::swap(int* a, int* b){
     int tmp = *a;
     *a = *b;
